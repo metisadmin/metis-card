@@ -1,0 +1,119 @@
+.Card {
+  position: relative;
+  margin-bottom: 25px;
+  padding: 0;
+  background: #fff;
+}
+.Card-Header {
+  border-top: 3px solid @CardBorderColor;
+  display: flex;
+  align-items: flex-start;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 400;
+    margin: 0;
+    padding: 0.75rem 1rem;
+    font-size: 1.6rem;
+  }
+}
+.Card-Title {
+  flex: 1;
+}
+.Card-Tools {
+
+}
+.Card-Content {
+  border-top: 1px solid @CardBorderColor;
+  background: #fff;
+  padding: 1rem;
+  &.no-padding {
+    padding: 0;
+  }
+  &.collapse {
+    display: none;
+    &.in {
+      display: block;
+    }
+  }
+}
+.Card-Footer {
+  padding: 1rem;
+  border-top: 1px solid @CardBorderColor;
+}
+.MenuBar {
+  display: flex;
+  align-items: stretch;
+  margin: 0;
+  list-style: none;
+  > li {
+    flex: 1;
+    align-items: center;
+    position: relative;
+    > a {
+      outline: none;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      padding: 0.75rem;
+      text-decoration: none;
+      color: darken(@CardBorderColor, 30%);
+      &:hover {
+        color: darken(@CardBorderColor, 40%);
+      }
+    }
+  }
+  .dropdown-menu {
+    right: 0;
+    left: auto;
+    border-radius: 0;
+  }
+  > li > ul {
+    position: absolute;
+    list-style: none;
+    background: #fff;
+    border: 1px solid @CardBorderColor;
+    top: 100%;
+    left: auto;
+    right: 0;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    background-clip: padding-box;
+    > li {
+      position: relative;
+      display: block;
+      > a {
+        display: block;
+        text-decoration: none;
+        padding: 0.5rem 0.7rem;
+        font-weight: 400;
+        line-height: 1.42857;
+        color: #333;
+        white-space: nowrap;
+        &:hover {
+          color: #262626;
+          text-decoration: none;
+          background-color: #f5f5f5;
+        }
+      }
+    }
+    &.collapsing {
+      position: absolute;
+      min-width: 160px;
+      padding: 5px 0;
+      margin: 2px 0 0;
+      background-clip: padding-box;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+    }
+  }
+}
+.Card:fullscreen {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

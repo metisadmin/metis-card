@@ -1,0 +1,38 @@
+{
+  "name": "metis-card",
+  "version": "0.1.0",
+  "homepage": "https://github.com/metisadmin/metis-card",
+  "authors": [
+    "Osman Nuri Okumuş <onokumus@gmail.com>"
+  ],
+  "description": "metis admin card",
+  "main": [
+    "dist/metis-card.css",
+    "dist/metis-card.js"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "admin",
+    "card",
+    "flexbox"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app",
+    "public",
+    "tmp"
+  ],
+  "devDependencies": {
+    "screenfull": "~2.0.0",
+    "normalize.css": "~3.0.3",
+    "fontawesome": "~4.3.0"
+  },
+  "dependencies": {
+    "metisMenu": "~2.0.2"
+  }
+}
