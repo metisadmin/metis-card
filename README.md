@@ -1,4 +1,4 @@
-# metis-card [![NPM version](https://badge.fury.io/js/metis-card.svg)](http://badge.fury.io/js/metis-card)  [![Build Status](https://travis-ci.org/metisadmin/metis-card.svg)](https://travis-ci.org/metisadmin/metis-card)
+# metis-card [![NPM version](https://badge.fury.io/js/metis-card.svg)](http://badge.fury.io/js/metis-card) [![Bower version](https://badge.fury.io/bo/metis-card.svg)](http://badge.fury.io/bo/metis-card)  [![Build Status](https://travis-ci.org/metisadmin/metis-card.svg)](https://travis-ci.org/metisadmin/metis-card)
 
 > metis admin card
 
