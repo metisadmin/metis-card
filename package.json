@@ -1,10 +1,13 @@
 {
   "name": "metis-card",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "metis admin card",
   "main": "Brocfile.js",
   "scripts": {
-    "test": "broccoli serve"
+    "clean": "rm -rf ./dist",
+    "create": "broccoli build dist",
+    "serve": "broccoli serve",
+    "build": "npm run clean && npm run create"
   },
   "repository": {
     "type": "git",
@@ -12,7 +15,7 @@
   },
   "keywords": [
     "admin",
-    "base"
+    "card"
   ],
   "author": "Osman Nuri Okumuş <onokumus@gmail.com> (https://github.com/onokumus)",
   "license": "MIT",

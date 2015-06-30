@@ -1,0 +1,21 @@
+{
+  "name": "metisadmin/metis-card",
+  "description": "metis admin card",
+  "keywords": [
+    "admin",
+    "card"
+  ],
+  "homepage": "https://github.com/metisadmin/metis-card",
+  "authors": [{
+    "name": "Osman Nuri Okumus",
+    "email": "onokumus@gmail.com",
+    "homepage": "http://onokumus.com"
+  }],
+  "support": {
+    "issues": "https://github.com/metisadmin/metis-card/issues"
+  },
+  "license": "MIT",
+  "suggest": {
+    "metisadmin/metis-base": ">=0.1.0"
+  }
+}
