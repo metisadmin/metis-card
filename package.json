@@ -1,12 +1,13 @@
 {
   "name": "metis-card",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "metis admin card",
   "main": "Brocfile.js",
   "scripts": {
+    "postinstall": "bower install",
     "clean": "rm -rf ./dist",
     "create": "broccoli build dist",
-    "serve": "broccoli serve",
+    "start": "broccoli serve",
     "build": "npm run clean && npm run create"
   },
   "repository": {

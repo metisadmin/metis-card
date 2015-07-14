@@ -6,8 +6,8 @@
   $collapseButton.on('click', function(e) {
     e.preventDefault();
     var $parentCardContent = $(this)
-      .closest('.Card')
-      .children('.Card-Content');
+      .closest('.card')
+      .children('.card-content');
 
     var $toggleButtonImage = $(this).children();
 
@@ -18,12 +18,12 @@
 
   $('[data-close="card"]').on('click', function(e) {
     e.preventDefault();
-    $(this).closest('.Card').hide('slow');
+    $(this).closest('.card').hide('slow');
   });
 
   if ((window.screenfull !== undefined) && screenfull.enabled) {
     $('[data-fullscreen="card"]').on('click', function(e) {
-      var $toggledPanel = $(this).closest('.Card')[0];
+      var $toggledPanel = $(this).closest('.card')[0];
       $(this).children().toggleClass('fa-compress');
       screenfull.toggle($toggledPanel);
       e.preventDefault();
@@ -32,5 +32,5 @@
     $('[data-fullscreen="card"]').addClass('hidden');
   }
 
-  $('.Card-Tools .metismenu').metisMenu();
+  $('.card-tools .metismenu').metisMenu();
 })(jQuery);

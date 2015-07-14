@@ -1,18 +1,18 @@
 /**
-* metis-card v0.1.1
+* metis-card v0.1.2
 * Homepage : https://github.com/metisadmin/metis-card
 * Author : Osman Nuri Okumuş <onokumus@gmail.com> (https://github.com/onokumus)
 * Copyright 2015
 * Licensed under MIT
 */
 
-.Card {
+.card {
   position: relative;
   margin-bottom: 25px;
   padding: 0;
   background: #fff;
 }
-.Card-Header {
+.card-header {
   border-top: 3px solid #e7eaec;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -21,37 +21,37 @@
       -ms-flex-align: start;
           align-items: flex-start;
 }
-.Card-Header h1,
-.Card-Header h2,
-.Card-Header h3,
-.Card-Header h4,
-.Card-Header h5,
-.Card-Header h6 {
+.card-header h1,
+.card-header h2,
+.card-header h3,
+.card-header h4,
+.card-header h5,
+.card-header h6 {
   font-weight: 400;
   margin: 0;
   padding: 0.75rem 1rem;
   font-size: 1.6rem;
 }
-.Card-Title {
+.card-title {
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
-.Card-Content {
+.card-content {
   border-top: 1px solid #e7eaec;
   background: #fff;
   padding: 1rem;
 }
-.Card-Content.no-padding {
+.card-content.no-padding {
   padding: 0;
 }
-.Card-Content.collapse {
+.card-content.collapse {
   display: none;
 }
-.Card-Content.collapse.in {
+.card-content.collapse.in {
   display: block;
 }
-.Card-Footer {
+.card-footer {
   padding: 1rem;
   border-top: 1px solid #e7eaec;
 }
@@ -136,25 +136,25 @@
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
 }
-.Card:-webkit-full-screen {
+.card:-webkit-full-screen {
   width: 100vw;
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
 }
-.Card:-moz-full-screen {
+.card:-moz-full-screen {
   width: 100vw;
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
 }
-.Card:-ms-fullscreen {
+.card:-ms-fullscreen {
   width: 100vw;
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
 }
-.Card:fullscreen {
+.card:fullscreen {
   width: 100vw;
   height: 100vh;
   overflow-y: auto;
